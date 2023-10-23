@@ -12,6 +12,19 @@ p {
   text-align: center;
 }
 
+a {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 36px;
@@ -24,6 +37,30 @@ p {
     margin-bottom: 30px;
   }
 }
+header {
+  background-color: palevioletred;
+  position: sticky;
+  z-index: 5;
+  top: 0;
+}
+
+.top-nav-links {
+  height: 50px;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .top-nav-links {
+    height: 100px;
+    display: flex;
+  }
+}
+#info-area {
+  margin-top: 30px;
+}
 #info-area div {
   display: flex;
   flex-direction: column;
@@ -31,6 +68,10 @@ p {
 }
 
 #sweater-yumi {
+  max-height: 300px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
   border: 1px transparent;
   border-radius: 300px;
 }/*# sourceMappingURL=main.css.map */
