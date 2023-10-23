@@ -1,0 +1,51 @@
+#disclaimer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    p {
+        &:first-of-type {
+            font-weight: bold;
+        }
+    }
+}
+
+#art-guidelines, #writing-guidelines, #terms {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    h2 {
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+.show-more {
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+#note {
+    line-height: 30px;
+    span {
+        font-weight: bold;
+    }
+}
+
+#terms {
+    div{
+        p {
+            line-height: 30px;
+            span {
+                font-weight: bold;
+            }
+        }
+        ul {
+            li {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
