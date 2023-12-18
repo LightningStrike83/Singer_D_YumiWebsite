@@ -11,7 +11,28 @@
     }
 }
 
+#tos-buttons div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    p {
+        cursor: pointer;
+        transition: all ease-in-out 0.3s;
+        border: 1px solid c.$purple;
+        padding: 10px;
+        border-radius: 20px;
+        &:hover {
+            color: c.$light-pink;
+            text-decoration: underline;
+            background-color: c.$purple;
+            border: 1px solid c.$purple;
+        }
+    }
+}
+
 #art-guidelines, #writing-guidelines, #terms, #information {
+    display: none;
     padding-top: 20px;
     margin-bottom: 30px;
     border: 2px solid c.$purple;
