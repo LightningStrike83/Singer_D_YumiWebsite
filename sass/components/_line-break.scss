@@ -1,0 +1,7 @@
+@use "../abstracts/colours" as c;
+
+.line-break {
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    border-bottom: 1px solid c.$purple;
+}

@@ -1,0 +1,9 @@
+@use "../abstracts/colours" as c;
+
+.purple-link {
+    color: c.$purple;
+}
+
+.bold-li {
+    font-weight: bold;
+}

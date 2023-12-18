@@ -1,0 +1,14 @@
+@use "../abstracts/colours" as c;
+
+svg {
+    fill: white;
+    max-width: 30px;
+    stroke: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+        fill: c.$light-pink;
+        stroke: c.$light-pink;
+    }
+}

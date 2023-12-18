@@ -1,12 +1,16 @@
+@use "../abstracts/colours" as c;
+
 h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 15px;
     text-align: center;
+    color: black;
 }
 
 p {
     margin-bottom: 10px;
+    color: black;
 }
 
 a {
