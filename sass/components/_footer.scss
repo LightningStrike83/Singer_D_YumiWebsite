@@ -8,3 +8,10 @@ footer {
         justify-self: center;
     }
 }
+
+#index-footer {
+    position: fixed;
+    bottom: 0;
+    grid-column: 1/-1;
+    width: 100%;
+}
