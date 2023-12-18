@@ -1,3 +1,5 @@
+@use "../abstracts/colours" as c;
+
 #disclaimer {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -12,7 +14,7 @@
 #art-guidelines, #writing-guidelines, #terms, #information {
     padding-top: 20px;
     margin-bottom: 30px;
-    border: 2px solid black;
+    border: 2px solid c.$purple;
     border-radius: 10px;
     h2 {
         font-size: 16px;
@@ -48,6 +50,12 @@
                 margin-bottom: 20px;
             }
         }
+    }
+}
+
+#information {
+    p {
+        line-height: 20px;
     }
 }
 

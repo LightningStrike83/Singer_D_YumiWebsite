@@ -1,9 +1,16 @@
 @use "../abstracts/colours" as c;
 
 .purple-link {
+    transition: all 0.5s ease-in-out;
     color: c.$purple;
+    &:visited {
+        color: c.$purple;
+    }
+    &:hover {
+        color: white;
+    }
 }
 
-.bold-li {
+.bold-text {
     font-weight: bold;
 }
