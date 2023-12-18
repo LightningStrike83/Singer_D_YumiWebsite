@@ -1,0 +1,5 @@
+@use "../abstracts/colours" as c;
+
+body {
+    background-color: c.$light-pink;
+}

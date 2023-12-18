@@ -1,8 +1,15 @@
+@use "../abstracts/colours" as c;
+
 header {
     background-color: palevioletred;
+    //background-color: c.$pink;
     position: sticky;
     z-index: 5;
     top: 0;
+    .grid-con {
+        margin: 0;
+        grid-column: 2;
+    }
 }
 
 .top-nav-links {

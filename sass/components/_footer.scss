@@ -1,10 +1,10 @@
-footer {
-    height: 50px;
-}
+@use "../abstracts/colours" as c;
 
-@media screen and (min-width: 768px) {
-    footer {
-        height: 100px;
-        background-color: palevioletred;
+footer {
+    background-color: palevioletred;
+    div {
+        grid-column: 2;
+        display: flex;
+        justify-self: center;
     }
 }

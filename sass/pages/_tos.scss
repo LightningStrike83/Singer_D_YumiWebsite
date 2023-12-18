@@ -9,7 +9,7 @@
     }
 }
 
-#art-guidelines, #writing-guidelines, #terms {
+#art-guidelines, #writing-guidelines, #terms, #information {
     padding-top: 20px;
     margin-bottom: 30px;
     border: 2px solid black;
@@ -17,12 +17,6 @@
     h2 {
         font-size: 16px;
         text-align: left;
-    }
-}
-
-.show-more {
-    cursor: pointer;
-    &:hover {
         text-decoration: underline;
     }
 }
@@ -31,6 +25,13 @@
     line-height: 30px;
     span {
         font-weight: bold;
+    }
+}
+
+#writing-guidelines {
+    li {
+        line-height: 20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -48,4 +49,9 @@
             }
         }
     }
+}
+
+#important-note {
+    text-align: center;
+    font-style: italic;
 }

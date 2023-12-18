@@ -1,3 +1,5 @@
+@use "../abstracts/colours" as c;
+
 #info-area {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -7,8 +9,8 @@
         align-self: center;
         p {
             padding-bottom: 5px;
-            border-bottom: 1px solid black;
             text-align: center;
+            margin: 0;
         }
     }
 }
@@ -20,4 +22,21 @@
     justify-self: center;
     border: 1px transparent;
     border-radius: 300px;
+}
+
+#x-index {
+    a {
+        transition: all ease-in-out 0.5s;
+        color: c.$purple;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    grid-column: 1/-1;
+    width: 100%;
 }
