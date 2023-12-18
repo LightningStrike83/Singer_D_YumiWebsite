@@ -9,9 +9,14 @@ footer {
     }
 }
 
-#index-footer, #contact-footer {
+#index-footer, #tos-footer, #contact-footer {
     position: fixed;
     bottom: 0;
     grid-column: 1/-1;
     width: 100%;
+}
+
+.sm-logos {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
