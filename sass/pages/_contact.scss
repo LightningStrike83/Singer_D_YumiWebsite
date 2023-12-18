@@ -1,0 +1,23 @@
+@use "../abstracts/colours" as c;
+
+#contact-text {
+    margin-top: 10px;
+    border: 2px solid c.$purple;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+#contact-image-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-image {
+    max-width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
