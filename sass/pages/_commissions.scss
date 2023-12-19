@@ -1,0 +1,101 @@
+@use "../abstracts/colours" as c;
+
+#main-info {
+    p, h2 {
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+}
+
+#writing-comm, #drawing-comm {
+    display: none;
+    margin-bottom: 30px;
+    border: 2px solid c.$purple;
+    border-radius: 20px;
+    .bold-text {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+#price-titles {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid c.$purple;
+    p {
+        text-align: center;
+        &:first-of-type {
+            border-bottom: 1px solid c.$purple;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    &:first-of-type {
+        border-bottom: 1px solid c.$purple;
+        p {
+            margin-bottom: 10px;
+        }
+    }
+    &:nth-of-type(2) {
+        p {
+            margin-top: 10px;
+        }
+    }
+}
+
+#kofi-con {
+    border: 2px solid c.$purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+    img {
+        max-width: 10%;
+        &:first-of-type {
+            transform: scaleX(-1);
+        }
+    }
+    p {
+        margin: 0;
+    }
+    a {
+        color: c.$purple;
+        transition: ease-in-out all 0.5s;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+#comm-buttons {
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        p {
+            cursor: pointer;
+            transition: all ease-in-out 0.3s;
+            border: 1px solid c.$purple;
+            padding: 10px;
+            border-radius: 20px;
+            &:hover {
+                color: c.$light-pink;
+                text-decoration: underline;
+                background-color: c.$purple;
+                border: 1px solid c.$purple;
+            }
+        }
+    }
+}

@@ -19,7 +19,7 @@
     }
 
     function displayArt() {
-        tosFooter.style.positon = "relative"
+        tosFooter.style.position = "relative"
         artBox.style.display = "grid"
         writingBox.style.display = "none"
         termsBox.style.display = "none"
@@ -27,7 +27,7 @@
     }
 
     function displayWriting() {
-        tosFooter.style.positon = "relative"
+        tosFooter.style.posiion = "relative"
         artBox.style.display = "none"
         writingBox.style.display = "grid"
         termsBox.style.display = "none"
@@ -35,7 +35,7 @@
     }
 
     function displayTerms() {
-        tosFooter.style.positon = "relative"
+        tosFooter.style.position = "relative"
         artBox.style.display = "none"
         writingBox.style.display = "none"
         termsBox.style.display = "grid"
@@ -43,7 +43,7 @@
     }
 
     function displayCommission() {
-        tosFooter.style.positon = "relative"
+        tosFooter.style.position = "relative"
         artBox.style.display = "none"
         writingBox.style.display = "none"
         termsBox.style.display = "none"
